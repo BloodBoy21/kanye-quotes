@@ -135,3 +135,8 @@ body {
 	text-decoration: none;
 	color: var(--color-text);
 }
+/* Media query */
+@media only screen and(max-width:500px) {
+	
+	
+}

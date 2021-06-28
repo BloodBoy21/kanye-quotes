@@ -6,13 +6,13 @@ class Footer extends Component {
 			<footer className="footer-container">
 				<ul>
 					<li>
-						<a href="#">Contact</a>
+						<a href="death1027@outlook.com">Contact</a>
 					</li>
 					<li>
-						<a href="#">About</a>
+						<a href="##">About</a>
 					</li>
 					<li>
-						<a href="#">Github</a>
+						<a href="https://github.com/BloodBoy21/kanye-quotes">Github</a>
 					</li>
 				</ul>
 			</footer>

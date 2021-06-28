@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 async function getQuote() {
+	let theQuote = document.getElementById("the-quote");
+	theQuote.innerHTML = "Loading...";
 	const api = "https://api.kanye.rest/";
 	const quote = await fetch(api);
 	const jsonData = await quote.json();
-	document.getElementById("the-quote").innerHTML = jsonData.quote;
+	theQuote.innerHTML = jsonData.quote;
 }
 window.onload = getQuote;
 class Content extends Component {
